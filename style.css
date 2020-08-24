@@ -1,0 +1,108 @@
+
+
+*{
+    margin:0;
+    padding: 0;
+    background-color: #242525;
+    line-height: 1.5;
+    font-family: 'Lato', sans-serif;
+  
+}
+
+.section {
+    padding: 5rem 0;
+    
+  }
+.container {
+    width: 80vw;
+    max-width: 620px;
+  }
+
+main{
+    display: grid;
+    place-items: center;
+    min-height: 100vh;
+}
+
+.title {
+    text-align: center;
+    font-size: 1.5em;
+    margin-bottom: 3rem;
+    font-family: monospace;
+    color: #fff;
+    letter-spacing: 1px;
+  }
+
+  .img-container {
+    position: relative;
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    margin: 0 auto;
+    margin-bottom: 1.5rem;
+  }
+  #person-img {
+    width: 100%;
+    display: block;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+    position: relative;
+  }
+.reviews{
+
+    background-color: rgb(105, 100, 100);
+    padding: 1.5rem 2rem;
+  border-radius: 12px;
+  text-align: center;
+  box-shadow: 10px 10px 71px 10px rgb(0, 0, 0);
+  animation: backInDown; /* referring directly to the animation's @keyframe declaration */
+  animation-duration: 1s; /* don't forget to set a duration! */
+}
+
+  #Author {
+    text-align: center;
+    margin: auto;
+    font-size: 1em;
+    font-weight: bold;
+  
+    background-color: #696464;
+    width: 100px;
+  }
+  #job {
+    margin-bottom: 0.5rem;
+    text-transform: uppercase;
+    color: rgb(220, 227, 230);
+    font-size: 0.85rem;
+    background-color: transparent;    
+
+  }
+  #info {
+    margin-bottom: 0.75rem;
+    background-color: transparent;    
+
+    
+  }
+
+  .button{
+    background-color: transparent;
+  }
+
+  i{
+    background-color: #696464;
+  }
+.prev-btn,
+.next-btn {
+  color: crimson;
+  font-size: 2rem;
+  background: #696464;
+  border-color: transparent;
+  margin: 0 0.5rem;
+  cursor: pointer;
+  outline: none;
+}
+.prev-btn:hover,
+.next-btn:hover {
+  color: #242525;
+}
+
